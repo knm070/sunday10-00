@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    min-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__nav{
+    background: grey;
+}
+.header__nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header__nav-list{
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav-link {
+    font-size: 20px;
+    color: purple;
+}
